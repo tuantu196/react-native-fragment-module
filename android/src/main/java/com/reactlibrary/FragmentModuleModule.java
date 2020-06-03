@@ -36,6 +36,6 @@ public class FragmentModuleModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void sampleMethod(String stringArgument, int duration) {
         // TODO: Implement some actually useful functionality
-        Toast.makeText(getReactApplicationContext(),stringArgument,duration).show();
+        Toast.makeText(getReactApplicationContext(),stringArgument,Toast.LENGTH_LONG).show();
     }
 }
